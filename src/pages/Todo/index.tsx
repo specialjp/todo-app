@@ -30,6 +30,7 @@ const TodoPage = () => {
         dispatch({ type: ADD_ALL_TODO, payload: result })
         setTodoList(result)
       } catch (e) {
+        alert(e)
         console.error(e)
       }
     })()
