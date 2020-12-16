@@ -1,0 +1,30 @@
+.meter { 
+	height: 10px;  /* Can be anything */
+	position: relative;
+	background: #3B3B3B;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.no-completed {
+  color: #E3BBB9;
+  margin-top: 10px;
+}
+
+
+.title{
+  &--progress {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}

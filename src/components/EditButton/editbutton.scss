@@ -1,0 +1,17 @@
+@import '../../style/mixin.scss';
+
+.edit-button {
+  position: relative;
+  width: 150px;
+
+  &--title {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 18px;
+
+    @include phone-only {
+      font-size: 15px;
+    }
+  }
+}

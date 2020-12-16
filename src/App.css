@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.text-white {
+  color: white;
+}
+
+.text-red {
+  color: red;
+}
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.headline {
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 600;
+}
+
+.can-click {
+  cursor: pointer;
+}

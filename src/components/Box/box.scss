@@ -1,0 +1,44 @@
+@import '../../style/mixin.scss';
+
+.box {
+
+  border-radius: 30px;
+
+  &-container {
+    background-color: #F5F5F5;
+    max-width: 650px;
+    margin: auto;
+    min-height: 80vh;
+    padding: 50px 75px;
+
+    @include phone-only {
+      padding: 20px;
+    }
+
+  }
+
+  &--progress {
+    background-color: #D3817F;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+  }
+
+  &--input {
+    margin-top: 10px;
+    background-color: white;
+    padding: 9px 20px;
+  }
+
+  &--edit {
+    background-color: white;
+    padding: 9px 20px;
+    position: relative;
+    width: 100px;
+  }
+  &--save {
+    background-color: #56538E;
+    padding: 9px 20px;
+    color: white;
+  }
+
+}

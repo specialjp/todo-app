@@ -1,0 +1,43 @@
+@import '../../style/mixin.scss';
+
+.filter-container {
+  position: relative;
+  width: 100px;
+  cursor: pointer;
+
+  @include phone-only {
+    width: 50px;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 35px;
+  right: -20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  z-index: 10;
+
+  &-item {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #56538E;
+      color: white;
+    }
+  }
+}
+
+.all-filter--button {
+  &:after {
+    content: '\2304';
+    position: absolute;
+    right: 0;
+    top: -7px;
+    font-size: 20px;
+  }
+}
